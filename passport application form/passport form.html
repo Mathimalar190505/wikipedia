@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport Application</title>
+    <link rel="stylesheet" href="passport form.css">
+</head>
+<body >
+    <div class="box">
+
+    <div style="border:1px solid pink;display: flex;">
+        <img src="https://th.bing.com/th/id/OIP.lBJ2xcDl7nAgZZxlbPbySgHaH6?w=159&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="emblem" width="100px">
+        <center><h3><b>PASSPORT APPLICATION FORM</b></h3><h3><b>Government of India,Ministry of External Affairs</b></h3>
+        <p ><b>Please read the Passport Instruction Booklet carefully before filling the form.Finishing of incorrect information /
+            suppression of information would lead to rejection of application and would attract penal provisions as prescribed under
+            the Passports Act,1967. Please produce your original documentsat the time of submission of the from.All fields marked with(*) are 
+            mandatory to fill.</b>
+        </p></center>
+    </div>  
+    <div class="heads"><h4><b>Service Required</b></h4></div><br> 
+    <div class="fills">
+        <label for="apply"><b>Applying for * </b></label> <input type="text" style="width: 450px;"> <br>
+        <label for="type of application" style="margin-right:8em"><b>Type of Application * </b></label> <input type="radio" name="top" value="normal"><label for="Normal">Normal</label> <input type="radio" name="top" value="tatkal"><label for="tatkaal">Tatkaal</label><br>
+        <label for="type of pass" style="margin-right: 6em;"><b>Type of Passport Booklet* </b></label> <input type="radio" name="page" value="36" ><label for="36">36 Pages</label> <input type="radio" name="page" value="60"><label for="60">60 Pages</label><br>
+    </div>
+    <div class="heads"><h4><b>Applicant Details</b></h4></div><br> 
+    <div class="fills">
+                <label for="name"><b>Applicant's Given Name(Given Name means First Name followed by Middle Name(if any))*</b></label><br>
+                <input type="text" style="width:430px"><br>
+                <label for="surname"><b>Surname</b></label><br>
+                <input type="text" style="width:430px"><br>
+                <label for="gender" style="margin-right: 2em;"><b>Gender *</b></label><select name="gender" id="gender" aria-placeholder="select" style="margin-right: 3em;"><option value="" disabled selected>Select</option><option value="female">Female</option><option value="male">Male</option><option value="other">Other</option></select><br>
+                <label for="alias" style="margin-right:4em"><b>Are you known by any other name(alias as)? *</b></label><input type="radio" name="alias" value="yes"><label for="yes" style="margin-right: 3em;">Yes</label><input type="radio" name="alias" value="no"><label for="no">No</label><br>
+                <label for="names" style="margin-right:8em"><b>Have you ever changed your name? *</b></label><input type="radio" name="named" value="yes"><label for="yes" style="margin-right: 3em;">Yes</label><input type="radio" name="named" value="no" ><label for="no">No</label><br>
+            <label for="Dob" style="margin-right: 2em;"><b>Date of Birth(MM/DD/YYYY)* </b></label><input type="date"><br><br>
+    </div>
+    <div class="heads"><h4><b>Place of Birth</b></h4>    </div><br>
+    <div class="fills">
+            <label for="plce" style="margin-right: 4em;"><b>Is your place of birth out of India? * </b></label></label><input type="radio" name="birth" value="yes"><label for="yes" style="margin-right: 3em;">Yes</label><input type="radio" name="birth" value="no"><label for="no">No</label><br>
+            <label for="village" style="margin-right: 3em;"><b>Village or Town or city *</b></label><input type="text" style="width:40%"><br>
+            <label for="mar" style="margin-right: 3em;"><b>Marital Status *</b></label><select name="marital" id="marital" style="margin-right: 3em;"><option value="" disabled selected>Select</option><option value="married">Married</option><option value="single">single</option><option value="divorced">Divorced</option></select><label for="citizen" style="margin-right: 2em;"><b>Citizenship of India by *</b></label><input type="text"><br>
+            <label for="pan" style="margin-right: 3em;"><b>PAN (if available) </b></label><input type="text" style="margin-right: 3em;"> <label for="voter" style="margin-right: 3em;"><b>Voter ID(if available)</b></label><input type="text"><br>
+            <label for="emp" style="margin-right: 2.6em;"><b>Employment type *</b></label><input type=" text" style="width: 70%;"><br>
+            <label for="gov"><b>Is either of your parent(in case of minor)/spous, a government servant? * </b></label><input type="text" style="width:80px"><br>
+            <label for="educ" style="margin-right: 2em;"><b>Educational Qualification * </b></label><input type="text" style="margin-right: 3em;"><label for="non-ecr"><b>Are you eligible for Non-ECR category? *</b></label><input type="text"><br>
+            <label for="mark" style="margin-right: 2em;"><b>Visible disinguishing Mark</b></label><input type="text" style="width:70%"><br>
+            <label for="aadhar" style="margin-right: 6.5em;"><b>Aadhar Number</b></label><input type="text"><br><br>
+    </div>
+    <div style="border: 1px solid black;padding-left: 10px;">
+            <p>I, the holder of above mentioned Aadhar Number,hereby give my consent to PassPort Seva to obtain my Aadhar Number,Name and
+                Fingerprint/Iris for authentication with UIDAI. I have no objection using my identity and biometric information for validation
+                with Aadhaar (CIDR) database only for the purpose of authentication.
+            </p>
+            <p>I agree <input type="checkbox" value="yes"><label for="yes">Yes</label><input type="checkbox" value="no"><label for="no">No</label></p>
+    </div><br>
+    <div class="heads"><h4><b>Family Details (Father/mother/Legal Gaurdian details; at least one is mandatory.) *</b></h4></div><br>
+    <div class="fills">
+            <label for="dad"><b>Father's Given Name(Given Name means First Name followed by Middle Name (if any))</b></label><br>
+            <input type="text" style="width:100%"><br>
+            <label for="surname"><b>Surname</b></label><br><input type="text" style="width:100%">
+            <label for="gaurdian"><b>Legal Guardian's Given Name (if applicable)</b></label><br><input type="text" style="width:100%"><br><br>
+    </div>
+    <center><button type="Submit" style="margin-right:4em;background-color: gray;height:30px;width:90px;border-radius:4px;">Submit</button> <button type="reset" style="background-color: gray;height:30px;width:90px;border-radius:4px;">Reset</button></center>
+    </div>
+    </div>
+</body>
+
+</html>
