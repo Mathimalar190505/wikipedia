@@ -1,0 +1,31 @@
+.card-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:15px;
+    padding:16px;
+}
+.card{
+    max-width:300px;
+    border-radius:10px;
+    box-shadow:0 4px 8px gray;
+}
+.channel{
+    background-image:url("https://i.pinimg.com/736x/7c/c3/2f/7cc32f29c1a98706552c7d6ca4214f77.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.dior{
+    background-image:url("https://i.pinimg.com/736x/97/3e/ed/973eeddc0ada5b62b8ef33413500c34c.jpg");
+       border-radius: 10px;
+        background-size: cover;
+}
+.gucci{
+    background-image: url("https://i.pinimg.com/736x/a0/62/bf/a062bf6c0ceb52ca1c24e2dcbe88fc28.jpg");
+       border-radius: 10px;
+        background-size: cover;
+}
+.card :hover{
+
+    cursor:pointer;
+}

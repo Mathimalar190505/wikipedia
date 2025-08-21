@@ -1,0 +1,11 @@
+#banners{
+    height:800px;
+    max-width:600px;
+    margin:auto;
+    
+}
+#banners .carousel-item img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
